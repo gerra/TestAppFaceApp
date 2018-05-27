@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yandex_photo_base_url">https://api-fotki.yandex.ru/api/</string>
+</resources>
