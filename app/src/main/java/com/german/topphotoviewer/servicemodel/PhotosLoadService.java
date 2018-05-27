@@ -9,16 +9,16 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.german.topphotoviewer.BlobLoader;
 import com.german.topphotoviewer.PhotoLib;
-import com.german.topphotoviewer.TopPhoto;
-import com.german.topphotoviewer.TopPhotoList;
 import com.german.topphotoviewer.Utils;
 import com.german.topphotoviewer.cache.LastDayFileCache;
+import com.german.topphotoviewer.data.TopPhoto;
+import com.german.topphotoviewer.data.TopPhotoList;
 import com.german.topphotoviewer.dto.PhotoEntry;
 import com.german.topphotoviewer.dto.PhotoInfo;
 import com.german.topphotoviewer.dto.PhotoList;
 import com.german.topphotoviewer.dto.PhotoVariations;
+import com.german.topphotoviewer.net.BlobLoader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,6 @@ import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;

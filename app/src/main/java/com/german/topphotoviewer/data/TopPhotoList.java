@@ -1,4 +1,4 @@
-package com.german.topphotoviewer;
+package com.german.topphotoviewer.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;

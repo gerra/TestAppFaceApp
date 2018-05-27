@@ -1,4 +1,4 @@
-package com.german.topphotoviewer;
+package com.german.topphotoviewer.net;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,6 +10,7 @@ import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.german.topphotoviewer.Utils;
 import com.german.topphotoviewer.cache.Cache;
 import com.german.topphotoviewer.cache.FileCache;
 

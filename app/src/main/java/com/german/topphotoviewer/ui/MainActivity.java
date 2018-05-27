@@ -1,17 +1,19 @@
-package com.german.topphotoviewer;
+package com.german.topphotoviewer.ui;
 
-import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.List;
+import com.german.topphotoviewer.PhotosPresenter;
+import com.german.topphotoviewer.PhotosPresenterImpl;
+import com.german.topphotoviewer.PhotosView;
+import com.german.topphotoviewer.R;
+import com.german.topphotoviewer.data.TopPhoto;
 
 public class MainActivity extends AppCompatActivity implements PhotosView {
     private static final String TAG = "[MainActivity]";

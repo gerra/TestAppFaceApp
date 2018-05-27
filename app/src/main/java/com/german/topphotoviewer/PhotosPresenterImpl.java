@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.german.topphotoviewer.data.TopPhoto;
+import com.german.topphotoviewer.data.TopPhotoList;
 import com.german.topphotoviewer.servicemodel.PhotosServiceModel;
 
 public class PhotosPresenterImpl implements PhotosPresenter {

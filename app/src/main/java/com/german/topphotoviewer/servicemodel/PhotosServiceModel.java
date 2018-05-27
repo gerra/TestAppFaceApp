@@ -12,8 +12,8 @@ import android.util.Log;
 
 import com.german.topphotoviewer.PhotoLoadInteractor;
 import com.german.topphotoviewer.PhotosModel;
-import com.german.topphotoviewer.TopPhoto;
-import com.german.topphotoviewer.TopPhotoList;
+import com.german.topphotoviewer.data.TopPhoto;
+import com.german.topphotoviewer.data.TopPhotoList;
 
 public class PhotosServiceModel implements PhotosModel {
     public static final String ACTION_LIST_LOADED = "com.german.topphotoviewer.LIST_LOADED";

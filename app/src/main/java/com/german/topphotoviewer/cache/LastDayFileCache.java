@@ -3,7 +3,7 @@ package com.german.topphotoviewer.cache;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.german.topphotoviewer.BlobLoader;
+import com.german.topphotoviewer.net.BlobLoader;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;

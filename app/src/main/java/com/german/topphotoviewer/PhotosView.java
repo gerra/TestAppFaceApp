@@ -1,9 +1,8 @@
 package com.german.topphotoviewer;
 
-import android.net.Uri;
 import android.support.annotation.NonNull;
 
-import java.util.List;
+import com.german.topphotoviewer.data.TopPhoto;
 
 public interface PhotosView {
     void showProgress();

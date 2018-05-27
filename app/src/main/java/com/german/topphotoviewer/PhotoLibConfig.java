@@ -3,6 +3,8 @@ package com.german.topphotoviewer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.german.topphotoviewer.net.PhotosService;
+
 import junit.framework.Assert;
 
 public class PhotoLibConfig {
